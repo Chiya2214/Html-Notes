@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 1 class</title>
+    <!--  suppose we make a folder with extension of .css we can link it to our html file by using link tag  
+        like we linked it as we had done it in a href we also should see it is a stylesheet
+ -->
+ <link rel="stylesheet" href="style.css">
+
+    <!-- for css only style tag is used  -->
+    <!-- for internal css we use it in head tag, style internal css ka head tag k andr hi hoga . -->
+    <style>
+        h1{
+            background-color: green;
+            color: white;
+        }
+        p{
+            background-color: green;
+            color: white;
+        }
+        /* we should call a id by using # id selector */
+        #myheading{
+            background-color: aqua;
+            color: blanchedalmond;
+        }
+        /* class selector we are making a new class named as mystyle we can call is anywhere down by using class selector . y us smay use hoti h jb baar
+        baar likhna ni hota h bs y class call kro or wo hojaega ab y style jha p b use korge usme lgjaega jha p b call kroge class ko class ko class=" s call krte 
+        hai */
+        .mystyle{
+            background-color: blue;
+            color:red;
+        }
+
+
+    </style>
+</head>
+<body style="background-color: bisque;">
+    <!-- internal css -->
+    <h1 style="background-color: aqua; color: blue;">This is my internal Css</h1>
+    <!-- suppose for this we want diffrent style so we can give it unique identity , we should give it a id -->
+    <h1 id="myheading" style="background-color: aqua; color: blue;">This is one more internal css</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quod voluptatibus eaque ex sequi, voluptas dolorum beatae at unde iste, consectetur error doloribus! Necessitatibus omnis vitae natus alias officiis soluta?</p>
+    <!-- css full form is  cascade style sheet in whic we design our page in order to beautify it . we can enter various fields in style   -->
+    <!-- inline css -->
+    <h1 style="color:red; background-color: yellow; height: 60px">Welcome to Css class</h1>
+    <!-- class selector  -->
+    <h1 class="mystyle"> CHIYA </h1>
+</body>
+</html>

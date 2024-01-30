@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table style="border: 2px solid; background-color: aquamarine">
+      <thead>
+        <th>name</th>
+        <th>place</th>
+        <th>animal</th>
+        <th>thing</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>roshni</td>
+          <td>raipur</td>
+          <td>rat</td>
+          <td>racket</td>
+        </tr>
+        <tr>
+          <td>sourabh</td>
+          <td>silwani</td>
+          <td>sher</td>
+          <td>seat</td>
+        </tr>
+        <tr>
+          <td>diya</td>
+          <td>delhi</td>
+          <td>donkey</td>
+          <td>doll</td>
+        </tr>
+      </tbody>
+    </table>
+    ------------------------------------------------------------------------------------------------------------------------------------------------------
+    <table border="1px solid">
+      <thead></thead>
+      <tbody>
+        <tr>
+          <th>name</th>
+          <td>roshni</td>
+          <td>sourabh</td>
+          <td>diya</td>
+        </tr>
+        <tr>
+          <th>place</th>
+          <td>raipur</td>
+          <td>silwani</td>
+          <td>delhi</td>
+        </tr>
+        <tr>
+          <th>animal</th>
+          <td>rat</td>
+          <td>sher</td>
+          <td>donkey</td>
+        </tr>
+        <tr>
+          <th>thing</th>
+          <td>racket</td>
+          <td>seat</td>
+          <td>doll</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- rowspan is for merging 2 rows 
+      and colspan is for merging 2 colomns and joining them in single
+       cell . it is used with td or th ,with tr it didnt work  -->
+    <!-- fir agr hga wo horizontal m bnta h to usme thead lr tbody b use hga or uske sth colspan hi use hga.
+         rowspan or colmnspan / colspan
+      km hi use hota h .-->
+    <!-- css k through cell spacing and cell padding use krte h saath hi m or borders bgclrs wgra b use krte h  -->
+    <table border="1px solid">
+      <tr>
+        <th rowspan="2">item1</th>
+        <td>mobile</td>
+        <td>tablet</td>
+        <td>iphone</td>
+      </tr>
+      <tr>
+        <td>mi tv</td>
+        <td>samsung</td>
+        <td>jio</td>
+        <td>airtel</td>
+      </tr>
+    </table>
+    -------------------------------------------------------------------
+    <table border="1px solid">
+      <thead>
+        <th colspan="2">students</th>
+        <th colspan="2">city</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>roshni</td>
+          <td>bhopal</td>
+          <td>chiya</td>
+          <td>indore</td>
+        </tr>
+        <tr>
+          <td>diya</td>
+          <td>indore</td>
+          <td>akshaya</td>
+          <td>bhopal</td>
+        </tr>
+      </tbody>
+    </table>
+    <label for="progressbar">html/css </label>
+    <progress id="progressbar" value="80" max="100"></progress>80%
+
+    <header>
+      <!-- hearder -->
+      <h1>my website</h1>
+      <p>just another website</p>
+    </header>
+    <main id="main">
+      <!-- wecome section -->
+      <section id="welcome">
+        <h2>welcome to our website</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem totam
+          necessitatibus cumque impedit earum, nisi laudantium sequi in maiores
+          eaque iste vitae? Aperiam, similique? Consequatur et totam culpa alias
+          quasi!
+        </p>
+        <br>
+        <a href="#"> click for more</a>
+        <!-- #is a dummy tag kyunki link ko khali ni chod skte to # as a dummy tag lete h enter krna compulsory -->
+      </section>
+      <!-- blog section -->
+      <section id="blog">
+        <h2>from our blog</h2>
+    </main>
+    <aside id="sidebar">
+      <h3>Navigation</h3>
+      <nav>
+        <ul id="main-nav">
+          <li><a href="index.html">home</a></li>
+          <li><a href="blogs"></a>blogs</li>
+          <li><a href="contact"></a></li>
+        </ul>
+      </nav>
+      <hr><br>
+      <h2>Contact us</h2>
+      
+    </aside>
+  </body>
+</html>

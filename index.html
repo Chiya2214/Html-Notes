@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!-- imp comments day 2 html class -->
+<html lang="en">
+  <head>
+    <!-- utf 8 is a character set used by every user and there are multiple charset -->
+    <meta charset="UTF-8" />
+    <!-- the blank white space where any content displayed is viewport -->
+    <meta name="viewport" content="width=?, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-instagram/0.3.1/instagram.min.js" integrity="sha512-F0X09vUNoaqhhH0MTkn8ApGAEdjURI0bhl74/FXgCRPdDN8rfTGPdoBLfkIR1W371hwYfLBGznp/Vl8vHexQ3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-disqus-thread/0.4.0/react-disqus-thread.min.js" integrity="sha512-IVPYw4ISPJ+4pq0E3gr+4OjASZmUhGrlQessmqNnD6gUpw6yKHVuxipehY6ha2DwatFK6EFCubDlU2Fwlsnnag==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+</head>
+  <body>
+    <!-- hr tag is for horizontal lines
+    <hr> <hr>
+    <!-- em tag is for italic -->
+    <em></em>
+    <!-- delete tag is del  -->
+    <del></del>
+    <!-- for underline use U -->
+    <u></u>
+    <!-- strong is for highlighting or for bold  -->
+    <strong></strong>
+  </body>
+  ------------------------------------------------------------------------------------------------------------------------------------------------------
+  <!DOCTYPE html>
+  <!-- html day 3 -->
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+    </head>
+    <body>
+      <p>hello this is Chiya</p>
+      <!-- anchor tag with external link-->
+      <a href="https://google.com" target="_parent">
+        <!-- target is use to redirect you to new tab not open that link in same page itself bcoz your basic page will not vanish them and you can use it to make a new tab -->
+        <!-- this is an external link, it is use for redirecting or for linking any external page -->
+        click for google
+      </a>
+      <a href="/hello.html">this is new website</a>
+
+      <img src="/images/chiya.jpg" alt="click to see me" width="100px" />
+      <img
+        src="https://pics.craiyon.com/2023-06-20/7f9a15a54868484cb758093340ddb0e1.webp"
+        alt="scenery"
+        width="200px"
+        height="100px"
+      />
+      <!-- this second one is external link from google in which you need to copy image address from google that image address and then copy it and paste it in src and then enter in alt -->
+      <!-- image tag use for adding the images in src you need to enter a link and in alt you need to enter alternate that it is a doll or this is me  -->
+      <div></div>
+      <select name="" id=""></select>
+      <option value=""></option>
+      <ul style="list-style: square">
+        <li>apple</li>
+        <li>mango</li>
+        <li>
+          papaya
+          <ul>
+            <li>orange</li>
+            <li>chiku</li>
+          </ul>
+          <!--  -->
+        </li>
+      </ul>
+      <ol type="a">
+        <li>apple</li>
+        <li>mango</li>
+        <li>papya</li>
+      </ol>
+      <form action="process.php">
+        <div>
+          <label for="name">enter name </label>
+          <!-- for is linking lable to imput -->
+          <input type="text" id="name" />
+        </div>
+        <br />
+        <label for="email"> enter email </label>
+        <input type="email" id="email" />
+        <!-- email is for using @ bcoz in mail it will not accept it without it  -->
+        <div style="background-color: aquamarine">
+          <br />
+          <button type="submit">submit</button>
+        </div>
+        <div>
+          <input type="submit" id="submit" />
+          <button type="submit" id="submit1">submit</button>
+        </div>
+        <br />
+        <button type="reset">reset</button>
+        <div>
+          <input type="reset" id="reset" />
+          <button type="reset" id="reset1">reset</button>
+        </div>
+      </form>
+
+      <form action="hobby">
+        <label for="hobby">hobby</label>
+        <input type="checkbox" name="hobby" id="hobby" value="dancing" />dancing
+        <input
+          type="checkbox"
+          name="hobby"
+          id="hobby"
+          value="playing cricket"
+        />pc
+      </form>
+      <form action="radio">
+        <label for="radio">radio</label>
+        <input type="radio" name="membership" id="membership" value="deluxe" />
+        <input type="radio" name="membership" id="membership" value="premium" />
+      </form>
+      <div>
+        <label for="gender">gender</label>
+        <select name="gender" id="gender">
+          <option value="male">male</option>
+          <option value="female " selected>female</option>
+          <option value="others">others</option>
+        </select>
+      </div>
+      <!-- center tag is for taking things to center -->
+      <center>this will come now in center</center>
+      <!-- pretttier extension download kia then right click kia uspr format documnet with wha p upr jake prettier ko select krlo wo apka style or codes ko systematic bnaega-->
+      <!-- descriptive list 
+    this is for giving description-->
+      <dl>
+        <li>item 1</li>
+        <li>item 2</li>
+      </dl>
+      <!-- table is for making table -->
+      <table style="border: 2px solid; background-color: pink;">
+        <!-- thead is us for head of table -->
+        <thead>
+            <!-- tr stands for table row it is for distinguishing row -->
+            <tr>
+        <!-- just like h1 and all like that only th is for diff headings -->
+            <th>name</th>
+            <th>course</th>
+            <th>location</th>
+            <th>qualification</th>
+        </tr>
+
+        </thead>
+        <!-- table body is tbody which is diffrent from head in head you enter headings and  for more data that is values or data diff from headings we enter it in tbody -->
+        <tbody>
+            <tr>
+                <!-- td is table data that is used when we want to enter some data -->
+                <td>john doe</td>
+                <td>java</td>
+                <td>bhopal</td>
+                <td>btech</td>
+            </tr>
+            <tr>
+                <td>roshni</td>
+                <td>jada</td>
+                <td>indore</td>
+                <td> btech</td>
+            </tr>
+            <tr>
+                <td>kamakshi</td>
+                <td>python</td>
+                <td>reeva</td>
+                <td>btech</td>
+            </tr>
+
+        </tbody>
+      </table>
+      <i class="fa-brands fa-threads"></i><i class="fa-brands fa-threads"></i>
+      <i class="fa-brands fa-threads"></i>
+    ------------------------------------------------------------------------------------------------------------------------------------------------------
+    <!-- table k under style likh skte h usme border add krne ko or color add krskte bg clr s ,table size b bdha skte h jse upr use kia h wo krskte h-->
+    <!-- vertical table k lie thead use ni hoga kyunki headings usem use krne s hrizntal m aega or y vertical wala h tbody tag is like div -->
+    <table style="border: 3px solid; background-color: palegreen;">
+
+        <tr>
+            <th>name:</th>
+            <td>roshni</td>
+            <td>kamakshi</td>
+
+        </tr>
+        <tr>
+    <th>phn no</th>
+    <td>92092024190</td>
+    <td>8729897979</td>
+
+        </tr>
+        <tr>
+            <th>landline</th>
+            <td>07552480477</td>
+            <td>68e97939000</td>
+        </tr>
+
+
+    </table>
+    <label for="input">select course</label>
+    <input type="text" list="list1">x
+    <datalist id=""list1">
+    <option value="java">java</option>
+  <option value="python">python</option>
+<option value="html">html</option></datalist>
+<label for="gender">gender</label>
+<input type="radio" name="gender" id="gender">male
+<input type="radio" name="gender" id="gender">female
+<input type="radio" name="gender" id="gender">others
+<textarea name="enter your message" id="" cols="30" rows="10">enter your message</textarea>
+<mark>hello</mark>
+
+    </body>
+  </html>
+</html>
